@@ -35,3 +35,18 @@ root = Node(value=5,
                                   right=Node(value=1))
                        )
             )
+
+BST = Node(value=5,
+           left=Node(value=2,
+                     left=Node(value=1,
+                               right=Node(value=1.5,
+                                          left=Node(value=1.2))),
+                     right=Node(value=3)
+                     ),
+           right=Node(value=9,
+                      left=Node(value=7),
+                      right=Node(value=15,
+                                 right=Node(value=16)
+                                 )
+                      )
+           )
