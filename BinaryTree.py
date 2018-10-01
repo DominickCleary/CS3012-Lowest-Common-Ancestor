@@ -1,8 +1,8 @@
 class Node(object):
     def __init__(self, value=0,
                  left=None, right=None,
-                 id=None, parent=None):
-        self.id = id
+                 key=None, parent=None):
+        self.key = key
         self.left = left
         self.right = right
         self.value = value
