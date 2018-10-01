@@ -8,6 +8,7 @@ class Node(object):
         self.value = value
         self.parent = parent
 
+# Simple print statement, will try to add a pretty print method
     def __str__(self):
         if self.left is None and self.right is None:
             return str(self.value)
@@ -17,30 +18,13 @@ class Node(object):
                 str(self.left),
                 str(self.right))
 
-    def __repr__(self):
-        s = 'TreeNode Object (id=' + str(self.id) + \
-            ' value=' + str(self.value) + ')'
-        return s
 
-
-root = Node(value=5,
-            left=Node(value=4,
-                      left=Node(value=1,
-                                right=Node(value=2))
-                      ),
-            right=Node(value=8,
-                       left=Node(value=3),
-                       right=Node(value=4,
-                                  left=Node(value=9),
-                                  right=Node(value=1))
-                       )
-            )
-
+# Hardcoded for now, will add customisable tree later if possible
 BST = Node(value=5,
            left=Node(value=2,
                      left=Node(value=1,
-                               right=Node(value=1.5,
-                                          left=Node(value=1.2))),
+                               right=Node(value=2,
+                                          left=Node(value=6))),
                      right=Node(value=3)
                      ),
            right=Node(value=9,
