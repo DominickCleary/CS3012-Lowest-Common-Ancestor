@@ -32,18 +32,24 @@ class Node(object):
                                     str(self.right))
 
 
-bst_root = Node(11)
-bst_root.insert(6)
-bst_root.insert(4)
-bst_root.insert(5)
-bst_root.insert(8)
-bst_root.insert(10)
-bst_root.insert(19)
-bst_root.insert(17)
-bst_root.insert(43)
-bst_root.insert(31)
-bst_root.insert(49)
+def is_valid_node(node, value):
+    while node is not None:
+        if value == node.value:
+            return True
+        elif value < node.value:
+            node = node.left
+        elif value > node.value:
+            node = node.right
 
 
-# if __name__ == '__main__':
-#     #test
+bst = Node(11)
+bst.insert(6)
+bst.insert(4)
+bst.insert(5)
+bst.insert(8)
+bst.insert(10)
+bst.insert(19)
+bst.insert(17)
+bst.insert(43)
+bst.insert(31)
+bst.insert(49)
