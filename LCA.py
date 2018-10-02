@@ -18,9 +18,7 @@ def lca_parent(node_a, node_b):
     height_a = get_height(node_a)
     height_b = get_height(node_b)
     if height_b > height_a:
-        temp = node_a
-        node_a = node_b
-        node_b = temp
+        node_a, node_b = node_b, node_a
     for _ in range(height_b - height_a):
         node_b = node_b.parent
     while node_a != node_b:
