@@ -2,7 +2,10 @@ class Node(object):
     def __init__(self, value=0):
         self.left = None
         self.right = None
-        self.value = value
+        if isinstance(value, int):
+            self.value = value
+        else:
+            self.value = None
 
     # Can print the tree from the root to the deepest nodes
     def __str__(self):
@@ -14,19 +17,20 @@ class Node(object):
                                     str(self.right))
 
     def insert(self, value):
-        if self.value:
-            if value < self.value:
-                if self.left is None:
-                    self.left = Node(value)
-                else:
-                    self.left.insert(value)
-            elif value > self.value:
-                if self.right is None:
-                    self.right = Node(value)
-                else:
-                    self.right.insert(value)
-        else:
-            self.value = value
+        if isinstance(value, int):
+            if self.value:
+                if value < self.value:
+                    if self.left is None:
+                        self.left = Node(value)
+                    else:
+                        self.left.insert(value)
+                elif value > self.value:
+                    if self.right is None:
+                        self.right = Node(value)
+                    else:
+                        self.right.insert(value)
+            else:
+                self.value = value
 
 
 def is_valid_node(node, value):

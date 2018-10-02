@@ -2,7 +2,7 @@ import unittest
 from LCA import lca
 from BinaryTree import Node
 
-
+# Used for testing
 bst = Node(11)
 bst.insert(6)
 bst.insert(4)
@@ -37,3 +37,42 @@ class UnitTests(unittest.TestCase):
         # Test printing
         self.assertEqual("11 (6 (4 (None, 5), 8 (None, 10)), 19 (17, 43 (31, 49)))", str(bst))
         self.assertEqual("8 (None, 10)", str(bst.left.right))
+        # Test no input print
+        test_bst = Node()
+        self.assertEqual("0", str(test_bst))
+        # Test negative numbers
+        test_bst = Node(3)
+        test_bst.insert(-8)
+        test_bst.insert(2)
+        self.assertEqual("3 (-8 (None, 2), None)", str(test_bst))
+        # Test inserting
+        test_bst = Node(12)
+        self.assertEqual("12", str(test_bst))
+        # Adding a a few numbers bigger than the root
+        test_bst.insert(13)
+        test_bst.insert(16)
+        test_bst.insert(29)
+        self.assertEqual("12 (None, 13 (None, 16 (None, 29)))", str(test_bst))
+        # Test inserting existing node
+        test_bst.insert(13)
+        self.assertEqual("12 (None, 13 (None, 16 (None, 29)))", str(test_bst))
+        # Test inserting with same value as root
+        test_bst = Node(65)
+        test_bst.insert(65)
+        self.assertEqual("65", str(test_bst))
+        # Test inserting when root is None
+        test_bst = Node(None)
+        test_bst.insert(5)
+        self.assertEqual("5", str(test_bst))
+        # Test invalid inputs
+        test_bst = Node("TEST")
+        self.assertEqual(None, test_bst.value)
+        test_bst = Node(14)
+        test_bst.insert("TEST")
+        self.assertEqual("14", str(test_bst))
+        test_bst.insert(23.6)
+        self.assertEqual("14", str(test_bst))
+        # Test inserting 0
+        test_bst.insert(0)
+        self.assertEqual("14 (0, None)", str(test_bst))
+

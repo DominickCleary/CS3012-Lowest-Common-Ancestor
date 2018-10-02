@@ -1,4 +1,4 @@
-from BinaryTree import is_valid_node, Node
+from BinaryTree import is_valid_node
 
 
 def lca(node, a, b):
