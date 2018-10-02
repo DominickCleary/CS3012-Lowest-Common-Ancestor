@@ -1,4 +1,4 @@
-from BinaryTree import BST
+from BinaryTree import bst_root
 
 
 def lca(root, a, b):
@@ -36,6 +36,8 @@ def get_height(node):
 
 
 def lca_bst(root, a, b):
+    if a > b:
+        a, b = b, a
     while root:
         if a <= root.value <= b:
             return root
@@ -47,5 +49,5 @@ def lca_bst(root, a, b):
 
 
 if __name__ == '__main__':
-    print(lca_bst(BST, 1, 3))
-    # print(lcaBST(BST, 9,16))
+    print(lca_bst(bst_root, 5, 49))
+    # print(lca_bst(bst_root, 49, 19))
