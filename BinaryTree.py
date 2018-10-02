@@ -3,7 +3,6 @@ class Node(object):
         self.left = None
         self.right = None
         self.value = value
-        self.parent = None
 
     # Simple print statement, will try to add a pretty print method
     def __str__(self):
