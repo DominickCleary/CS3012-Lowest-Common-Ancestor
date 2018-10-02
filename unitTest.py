@@ -1,5 +1,19 @@
 import unittest
-from LCA import lca, bst
+from LCA import lca
+from BinaryTree import Node
+
+
+bst = Node(11)
+bst.insert(6)
+bst.insert(4)
+bst.insert(5)
+bst.insert(8)
+bst.insert(10)
+bst.insert(19)
+bst.insert(17)
+bst.insert(43)
+bst.insert(31)
+bst.insert(49)
 
 
 class UnitTests(unittest.TestCase):
@@ -22,3 +36,4 @@ class UnitTests(unittest.TestCase):
     def test_bst(self):
         # Test printing
         self.assertEqual("11 (6 (4 (None, 5), 8 (None, 10)), 19 (17, 43 (31, 49)))", str(bst))
+        self.assertEqual("8 (None, 10)", str(bst.left.right))

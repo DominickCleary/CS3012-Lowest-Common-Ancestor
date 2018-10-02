@@ -15,13 +15,13 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_TestLCA.coverage" NAME="Unittests for unitTest.TestLCA Coverage Results" MODIFIED="1538485983804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_UnitTests_test_lca.coverage" NAME="Unittests for unitTest.UnitTests.test_lca Coverage Results" MODIFIED="1538487776127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_UnitTests_test_lca.coverage" NAME="Unittests for unitTest.UnitTests.test_lca Coverage Results" MODIFIED="1538488231673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$LCA.coverage" NAME="LCA Coverage Results" MODIFIED="1538487395812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_TestLCA_test_bst.coverage" NAME="Unittests for unitTest.TestLCA.test_bst Coverage Results" MODIFIED="1538486018588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$BinaryTree.coverage" NAME="BinaryTree Coverage Results" MODIFIED="1538481572318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_UnitTests.coverage" NAME="Unittests for unitTest.UnitTests Coverage Results" MODIFIED="1538487447308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_UnitTests.coverage" NAME="Unittests for unitTest.UnitTests Coverage Results" MODIFIED="1538487866185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_TestLCA_test_answer.coverage" NAME="Unittests for unitTest.TestLCA.test_answer Coverage Results" MODIFIED="1538485387585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_UnitTests_test_bst.coverage" NAME="Unittests for unitTest.UnitTests.test_bst Coverage Results" MODIFIED="1538487712297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_UnitTests_test_bst.coverage" NAME="Unittests for unitTest.UnitTests.test_bst Coverage Results" MODIFIED="1538488150228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="229" />
@@ -39,25 +39,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="cfg" value="1" />
           <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Ini" value="1" />
           <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="py" value="3018" />
-          <entry key="txt" value="366" />
+          <entry key="py" value="3119" />
+          <entry key="txt" value="444" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="381" />
-          <entry key="Python" value="3018" />
+          <entry key="PLAIN_TEXT" value="459" />
+          <entry key="Python" value="3119" />
         </counts>
       </usages-collector>
     </session>
@@ -67,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LCA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="690">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -76,11 +78,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/unitTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="408">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1538487784107" expanded="true" signature="78:79" ph="..." />
+                <marker date="1538488143856" expanded="true" signature="78:79" ph="..." />
               </folding>
             </state>
           </provider>
@@ -89,13 +91,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="345">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
-                <marker date="1538487446962" expanded="true" signature="574:611" ph="..." />
+                <marker date="1538488084405" expanded="true" signature="474:480" ph="..." />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyvenv.cfg">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -126,9 +133,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1073" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="48" />
+    <option name="y" value="-8" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -315,22 +323,17 @@
       <option name="project" value="LOCAL" />
       <updated>1538486059770</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Realised I had the unit test arguments in backwards, is fixed now">
+      <created>1538487822426</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1538487822426</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_unitTest_TestLCA_test_bst - 2018.10.02 at 14h 11m 42s.xml">
-      <configuration name="Unittests for unitTest.TestLCA.test_bst" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unitTest_TestLCA - 2018.10.02 at 14h 12m 22s.xml">
-      <configuration name="Unittests for unitTest.TestLCA" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unitTest_TestLCA - 2018.10.02 at 14h 13m 04s.xml">
-      <configuration name="Unittests for unitTest.TestLCA" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unitTest_TestLCA_test_bst - 2018.10.02 at 14h 13m 38s.xml">
-      <configuration name="Unittests for unitTest.TestLCA.test_bst" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_unitTest_UnitTests - 2018.10.02 at 14h 37m 27s.xml">
       <configuration name="Unittests for unitTest.UnitTests" configurationId="tests" />
     </history-entry>
@@ -349,17 +352,29 @@
     <history-entry file="Unittests_for_unitTest_UnitTests_test_lca - 2018.10.02 at 14h 42m 56s.xml">
       <configuration name="Unittests for unitTest.UnitTests.test_lca" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_unitTest_UnitTests - 2018.10.02 at 14h 44m 26s.xml">
+      <configuration name="Unittests for unitTest.UnitTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unitTest_UnitTests_test_bst - 2018.10.02 at 14h 47m 45s.xml">
+      <configuration name="Unittests for unitTest.UnitTests.test_bst" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unitTest_UnitTests_test_bst - 2018.10.02 at 14h 48m 09s.xml">
+      <configuration name="Unittests for unitTest.UnitTests.test_bst" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unitTest_UnitTests_test_bst - 2018.10.02 at 14h 48m 45s.xml">
+      <configuration name="Unittests for unitTest.UnitTests.test_bst" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1073" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1697927" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09168444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32599118" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,7 +385,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.39824945" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.21481876" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -414,34 +429,38 @@
     <MESSAGE value="Fixed issue where if the LCA was one og the inputs 'None' would be returned" />
     <MESSAGE value="Fixed issue where if a node did not exist is would not always answer 'None'" />
     <MESSAGE value="Fixed issue where non int entries would crash the program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed issue where non int entries would crash the program" />
+    <MESSAGE value="Realised I had the unit test arguments in backwards, is fixed now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realised I had the unit test arguments in backwards, is fixed now" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/o.py" />
+    <entry file="file://$PROJECT_DIR$/pyvenv.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/LCA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="690">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="345">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
-            <marker date="1538487446962" expanded="true" signature="574:611" ph="..." />
+            <marker date="1538488084405" expanded="true" signature="474:480" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unitTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1538487784107" expanded="true" signature="78:79" ph="..." />
+            <marker date="1538488143856" expanded="true" signature="78:79" ph="..." />
           </folding>
         </state>
       </provider>

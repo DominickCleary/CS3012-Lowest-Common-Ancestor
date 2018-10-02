@@ -13,10 +13,6 @@ class Node(object):
                                     str(self.left),
                                     str(self.right))
 
-    # Simple print statement, just prints the value of the current node
-    def print_value(self):
-        return str(self.value)
-
     def insert(self, value):
         if self.value:
             if value < self.value:
