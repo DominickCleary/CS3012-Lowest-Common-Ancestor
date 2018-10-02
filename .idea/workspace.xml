@@ -14,10 +14,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_TestLCA.coverage" NAME="Unittests for unitTest.TestLCA Coverage Results" MODIFIED="1538482310957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$LCA.coverage" NAME="LCA Coverage Results" MODIFIED="1538484988835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_TestLCA.coverage" NAME="Unittests for unitTest.TestLCA Coverage Results" MODIFIED="1538485983804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_UnitTests_test_lca.coverage" NAME="Unittests for unitTest.UnitTests.test_lca Coverage Results" MODIFIED="1538487776127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$LCA.coverage" NAME="LCA Coverage Results" MODIFIED="1538487395812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_TestLCA_test_bst.coverage" NAME="Unittests for unitTest.TestLCA.test_bst Coverage Results" MODIFIED="1538486018588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$BinaryTree.coverage" NAME="BinaryTree Coverage Results" MODIFIED="1538481572318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_TestLCA_test_answer.coverage" NAME="Unittests for unitTest.TestLCA.test_answer Coverage Results" MODIFIED="1538484994807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_UnitTests.coverage" NAME="Unittests for unitTest.UnitTests Coverage Results" MODIFIED="1538487447308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_TestLCA_test_answer.coverage" NAME="Unittests for unitTest.TestLCA.test_answer Coverage Results" MODIFIED="1538485387585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3012_Lowest_Common_Ancestor$Unittests_for_unitTest_UnitTests_test_bst.coverage" NAME="Unittests for unitTest.UnitTests.test_bst Coverage Results" MODIFIED="1538487712297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="229" />
@@ -35,36 +39,49 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="py" value="1986" />
-          <entry key="txt" value="205" />
+          <entry key="py" value="3018" />
+          <entry key="txt" value="366" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="220" />
-          <entry key="Python" value="1986" />
+          <entry key="PLAIN_TEXT" value="381" />
+          <entry key="Python" value="3018" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LCA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="353">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unitTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1538487784107" expanded="true" signature="78:79" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,24 +89,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-              <folding>
-                <marker date="1538484790646" expanded="true" signature="222:259" ph="..." />
-                <marker date="1538484790646" expanded="true" signature="1043:1255" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unitTest.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1538483819192" expanded="true" signature="98:99" ph="..." />
+                <marker date="1538487446962" expanded="true" signature="574:611" ph="..." />
               </folding>
             </state>
           </provider>
@@ -111,9 +114,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/o.py" />
-        <option value="$PROJECT_DIR$/unitTest.py" />
-        <option value="$PROJECT_DIR$/BinaryTree.py" />
         <option value="$PROJECT_DIR$/LCA.py" />
+        <option value="$PROJECT_DIR$/BinaryTree.py" />
+        <option value="$PROJECT_DIR$/unitTest.py" />
       </list>
     </option>
   </component>
@@ -166,29 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for unitTest.TestLCA.test_answer">
-    <configuration name="BinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CS3012-Lowest-Common-Ancestor" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinaryTree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for unitTest.UnitTests.test_lca">
     <configuration name="LCA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS3012-Lowest-Common-Ancestor" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,7 +192,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for unitTest.TestLCA" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for unitTest.TestLCA.test_bst" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="CS3012-Lowest-Common-Ancestor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,11 +203,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unitTest.TestLCA&quot;" />
+      <option name="_new_target" value="&quot;unitTest.TestLCA.test_bst&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for unitTest.TestLCA.test_answer" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for unitTest.UnitTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="CS3012-Lowest-Common-Ancestor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,22 +218,54 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unitTest.TestLCA.test_answer&quot;" />
+      <option name="_new_target" value="&quot;unitTest.UnitTests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unitTest.UnitTests.test_bst" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="CS3012-Lowest-Common-Ancestor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unitTest.UnitTests.test_bst&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unitTest.UnitTests.test_lca" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="CS3012-Lowest-Common-Ancestor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unitTest.UnitTests.test_lca&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.LCA" />
-      <item itemvalue="Python.BinaryTree" />
-      <item itemvalue="Python tests.Unittests for unitTest.TestLCA.test_answer" />
-      <item itemvalue="Python tests.Unittests for unitTest.TestLCA" />
+      <item itemvalue="Python tests.Unittests for unitTest.TestLCA.test_bst" />
+      <item itemvalue="Python tests.Unittests for unitTest.UnitTests" />
+      <item itemvalue="Python tests.Unittests for unitTest.UnitTests.test_lca" />
+      <item itemvalue="Python tests.Unittests for unitTest.UnitTests.test_bst" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for unitTest.TestLCA.test_answer" />
+        <item itemvalue="Python tests.Unittests for unitTest.UnitTests.test_lca" />
+        <item itemvalue="Python tests.Unittests for unitTest.UnitTests.test_bst" />
+        <item itemvalue="Python tests.Unittests for unitTest.UnitTests" />
         <item itemvalue="Python.LCA" />
-        <item itemvalue="Python tests.Unittests for unitTest.TestLCA" />
-        <item itemvalue="Python.BinaryTree" />
+        <item itemvalue="Python tests.Unittests for unitTest.TestLCA.test_bst" />
       </list>
     </recent_temporary>
   </component>
@@ -288,33 +301,53 @@
       <option name="project" value="LOCAL" />
       <updated>1538483566197</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed issue where if a node did not exist is would not always answer 'None'">
+      <created>1538485051316</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538485051317</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed issue where non int entries would crash the program">
+      <created>1538486059770</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538486059770</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_unitTest_TestLCA_test_answer - 2018.10.02 at 13h 10m 32s.xml">
-      <configuration name="Unittests for unitTest.TestLCA.test_answer" configurationId="tests" />
+    <history-entry file="Unittests_for_unitTest_TestLCA_test_bst - 2018.10.02 at 14h 11m 42s.xml">
+      <configuration name="Unittests for unitTest.TestLCA.test_bst" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unitTest_TestLCA_test_answer - 2018.10.02 at 13h 10m 44s.xml">
-      <configuration name="Unittests for unitTest.TestLCA.test_answer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unitTest_TestLCA_test_answer - 2018.10.02 at 13h 10m 50s.xml">
-      <configuration name="Unittests for unitTest.TestLCA.test_answer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_unitTest_TestLCA - 2018.10.02 at 13h 11m 51s.xml">
+    <history-entry file="Unittests_for_unitTest_TestLCA - 2018.10.02 at 14h 12m 22s.xml">
       <configuration name="Unittests for unitTest.TestLCA" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unitTest_TestLCA_test_answer - 2018.10.02 at 13h 15m 57s.xml">
-      <configuration name="Unittests for unitTest.TestLCA.test_answer" configurationId="tests" />
+    <history-entry file="Unittests_for_unitTest_TestLCA - 2018.10.02 at 14h 13m 04s.xml">
+      <configuration name="Unittests for unitTest.TestLCA" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unitTest_TestLCA_test_answer - 2018.10.02 at 13h 17m 18s.xml">
-      <configuration name="Unittests for unitTest.TestLCA.test_answer" configurationId="tests" />
+    <history-entry file="Unittests_for_unitTest_TestLCA_test_bst - 2018.10.02 at 14h 13m 38s.xml">
+      <configuration name="Unittests for unitTest.TestLCA.test_bst" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unitTest_TestLCA_test_answer - 2018.10.02 at 13h 34m 11s.xml">
-      <configuration name="Unittests for unitTest.TestLCA.test_answer" configurationId="tests" />
+    <history-entry file="Unittests_for_unitTest_UnitTests - 2018.10.02 at 14h 37m 27s.xml">
+      <configuration name="Unittests for unitTest.UnitTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unitTest_TestLCA_test_answer - 2018.10.02 at 13h 36m 59s.xml">
-      <configuration name="Unittests for unitTest.TestLCA.test_answer" configurationId="tests" />
+    <history-entry file="Unittests_for_unitTest_UnitTests_test_lca - 2018.10.02 at 14h 37m 38s.xml">
+      <configuration name="Unittests for unitTest.UnitTests.test_lca" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unitTest_UnitTests_test_bst - 2018.10.02 at 14h 40m 56s.xml">
+      <configuration name="Unittests for unitTest.UnitTests.test_bst" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unitTest_UnitTests_test_bst - 2018.10.02 at 14h 41m 34s.xml">
+      <configuration name="Unittests for unitTest.UnitTests.test_bst" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unitTest_UnitTests_test_bst - 2018.10.02 at 14h 41m 52s.xml">
+      <configuration name="Unittests for unitTest.UnitTests.test_bst" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unitTest_UnitTests_test_lca - 2018.10.02 at 14h 42m 56s.xml">
+      <configuration name="Unittests for unitTest.UnitTests.test_lca" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -344,6 +377,30 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1697927" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.39824945" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -355,36 +412,37 @@
     <MESSAGE value="Changed the way nodes are added." />
     <MESSAGE value="Fixed an bug in checking for lca" />
     <MESSAGE value="Fixed issue where if the LCA was one og the inputs 'None' would be returned" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed issue where if the LCA was one og the inputs 'None' would be returned" />
+    <MESSAGE value="Fixed issue where if a node did not exist is would not always answer 'None'" />
+    <MESSAGE value="Fixed issue where non int entries would crash the program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed issue where non int entries would crash the program" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/o.py" />
-    <entry file="file://$PROJECT_DIR$/unitTest.py">
+    <entry file="file://$PROJECT_DIR$/LCA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1538483819192" expanded="true" signature="98:99" ph="..." />
-          </folding>
+        <state relative-caret-position="353">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state relative-caret-position="253">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <marker date="1538484790646" expanded="true" signature="222:259" ph="..." />
-            <marker date="1538484790646" expanded="true" signature="1043:1255" ph="..." />
+            <marker date="1538487446962" expanded="true" signature="574:611" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LCA.py">
+    <entry file="file://$PROJECT_DIR$/unitTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="184">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1538487784107" expanded="true" signature="78:79" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

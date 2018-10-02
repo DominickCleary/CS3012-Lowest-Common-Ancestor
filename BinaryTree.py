@@ -4,8 +4,17 @@ class Node(object):
         self.right = None
         self.value = value
 
-    # Simple print statement, will try to add a pretty print method
+    # Can print the tree from the root to the deepest nodes
     def __str__(self):
+        if self.left is None and self.right is None:
+            return str(self.value)
+        else:
+            return '%s (%s, %s)' % (str(self.value),
+                                    str(self.left),
+                                    str(self.right))
+
+    # Simple print statement, just prints the value of the current node
+    def print_value(self):
         return str(self.value)
 
     def insert(self, value):
@@ -22,14 +31,6 @@ class Node(object):
                     self.right.insert(value)
         else:
             self.value = value
-
-    def print_tree(self):
-        if self.left is None and self.right is None:
-            return str(self.value)
-        else:
-            return '%s (%s, %s)' % (str(self.value),
-                                    str(self.left),
-                                    str(self.right))
 
 
 def is_valid_node(node, value):

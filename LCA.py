@@ -31,4 +31,5 @@ bst.insert(49)
 
 
 if __name__ == '__main__':
-    print(lca(bst, 10, 7))
+    print(lca(bst, 10, 11))
+    print(bst)
